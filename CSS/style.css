@@ -11,20 +11,30 @@ html {
 
 .page-wrapper {
     background-color: hsl(0, 0%, 95%);
-    display: flex;
-    align-items: center;
     width: 100%;
     min-height: 100vh;
 }
 
+.link-to-other-page {
+    width: 100%;
+    padding: 2rem 4rem;
+}
+
+.link-to-other-page a {
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+}
+
 .card-container {
     width: 57%;
-    margin-inline: auto;
+    margin: 4rem auto;
     display: flex;
 }
 
 .sedan-container {
     background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
 }
 
 .suv-container {
@@ -33,6 +43,7 @@ html {
 
 .luxury-container {
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
 }
 
 .vehicle-card {
